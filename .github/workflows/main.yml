@@ -1,4 +1,3 @@
-
 name: Testes
 # Gatilhos / Programados ou Acionados sempre que ocorrer algum evento
 on:
@@ -44,6 +43,3 @@ jobs:
         GITHUB-TOKEN: ${{ secrets.GITHUB_TOKEN}}
         BRANCH: gh-pages
         FOLDER: mochawesome-report
-        
-    
-    
