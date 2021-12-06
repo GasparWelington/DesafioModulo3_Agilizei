@@ -16,7 +16,7 @@ describe('Cadastro de Clientes', () => {
     
     
     
-    it('Quando eu cadastrar o cliente, então deve ser realizado o cadastro com sucessso', () => {
+    it('Quando eu cadastrar o cliente e gravar, então deve ser realizado o cadastro com sucessso', () => {
 
         Logon.RealizarCadastroCliente()
         
