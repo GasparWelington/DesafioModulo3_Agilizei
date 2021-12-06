@@ -37,8 +37,8 @@ Antes de prosseguir, primeiro certifique-se de ter instalado:
 * Acessar o diretório root do projeto (que tem a pasta Cypress), instalar as dependências e abrir o Cypress Runner:
  PASSOS PARA INSTALAÇÃO:
 
-# .npm install
-# ./node_modules/.bin/cypress open
+* .npm install
+* ./node_modules/.bin/cypress open
 
 OBS: 
 Para executar os testes em modo headless, rode o comando npm run cy:run
