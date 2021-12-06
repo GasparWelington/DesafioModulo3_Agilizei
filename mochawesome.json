@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-12-06T11:23:01.761Z",
-    "end": "2021-12-06T11:23:33.176Z",
-    "duration": 31415,
+    "start": "2021-12-06T11:24:34.836Z",
+    "end": "2021-12-06T11:25:01.465Z",
+    "duration": 26629,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "7cad7938-dc59-4652-bcb8-b64c192f0a72",
+      "uuid": "863bdc56-4724-40db-b8ef-35ea837fe8ad",
       "title": "",
       "fullFile": "cypress/integration/cadastroCliente.spec.js",
       "file": "cypress/integration/cadastroCliente.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "7f0cc904-0ab5-488a-ac30-503bf04fa627",
+          "uuid": "dfdb3fe3-9d96-4cc8-a33a-36ec7ed905d3",
           "title": "Cadastro de Clientes",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Quando eu cadastrar o cliente e gravar, então deve ser realizado o cadastro com sucessso",
               "fullTitle": "Cadastro de Clientes Quando eu cadastrar o cliente e gravar, então deve ser realizado o cadastro com sucessso",
               "timedOut": null,
-              "duration": 27716,
+              "duration": 23744,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "_Logon.default.RealizarCadastroCliente();",
               "err": {},
-              "uuid": "d4f78360-a2ec-4d01-ab9f-c5c89090c667",
-              "parentUUID": "7f0cc904-0ab5-488a-ac30-503bf04fa627",
+              "uuid": "dde9c2f8-38bb-4181-bd2b-5a19af24255a",
+              "parentUUID": "dfdb3fe3-9d96-4cc8-a33a-36ec7ed905d3",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "d4f78360-a2ec-4d01-ab9f-c5c89090c667"
+            "dde9c2f8-38bb-4181-bd2b-5a19af24255a"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 27716,
+          "duration": 23744,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
