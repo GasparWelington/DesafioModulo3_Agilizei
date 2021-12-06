@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-12-04T02:17:51.672Z",
-    "end": "2021-12-04T02:18:13.397Z",
-    "duration": 21725,
+    "start": "2021-12-06T01:04:20.505Z",
+    "end": "2021-12-06T01:04:40.723Z",
+    "duration": 20218,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "c46bde68-1967-479d-ba89-a0cd942f0117",
+      "uuid": "29721f7e-fbcc-4716-a789-4c71ed29a450",
       "title": "",
       "fullFile": "cypress/integration/cadastroCliente.spec.js",
       "file": "cypress/integration/cadastroCliente.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "a5e7921a-e3f1-4db8-a6a7-8b068d457041",
+          "uuid": "02e680f5-436f-45d9-86a2-860c10c30e48",
           "title": "Cadastro de Clientes",
           "fullFile": "",
           "file": "",
@@ -35,10 +35,10 @@
           "afterHooks": [],
           "tests": [
             {
-              "title": "Quando eu cadastrar o cliente, então deve ser realizado o cadastro com sucessso",
-              "fullTitle": "Cadastro de Clientes Quando eu cadastrar o cliente, então deve ser realizado o cadastro com sucessso",
+              "title": "Quando eu cadastrar o cliente e gravar, então deve ser realizado o cadastro com sucessso",
+              "fullTitle": "Cadastro de Clientes Quando eu cadastrar o cliente e gravar, então deve ser realizado o cadastro com sucessso",
               "timedOut": null,
-              "duration": 19173,
+              "duration": 17642,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "_Logon.default.RealizarCadastroCliente();",
               "err": {},
-              "uuid": "bed23cd0-c61b-4d64-872d-5b926b271025",
-              "parentUUID": "a5e7921a-e3f1-4db8-a6a7-8b068d457041",
+              "uuid": "06b8900f-8c65-4014-b450-fb10febf808f",
+              "parentUUID": "02e680f5-436f-45d9-86a2-860c10c30e48",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "bed23cd0-c61b-4d64-872d-5b926b271025"
+            "06b8900f-8c65-4014-b450-fb10febf808f"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 19173,
+          "duration": 17642,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
