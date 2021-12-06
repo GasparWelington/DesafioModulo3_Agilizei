@@ -28,3 +28,8 @@ Acessar o diretório root do projeto (que tem a pasta Cypress), instalar as depe
 .npm install
 ./node_modules/.bin/cypress open
 
+
+
+![Hnet com-image](https://user-images.githubusercontent.com/94000549/144837171-d2c560e5-d3fc-4363-a34d-e00703261c67.gif)
+
+
