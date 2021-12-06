@@ -1,4 +1,10 @@
-Desafio
+Desafio n°2 do chapter iv do Agilizei Bootcamp 
+
+Essa será a aplicação que vamos Automatizar.
+
+![site](https://user-images.githubusercontent.com/94000549/144846724-815e7652-8bc1-40e6-a6c9-8ecee4fcc207.png)
+
+
 A empresa Thunders, precisa garantir a integridade e a disponibilidade de seus serviços para clientes através de uma página de cadastro em seu site - automation practice.
 
 Essa funcionalidade é a de cadastro de clientes em seu e-commerce, que possui diversos produtos disponíveis, categorias e promoções. Diariamente, novos clientes chegam ao site e precisam efetuar um cadastro para que possam comprar seus produtos, por isso essa funcionalidade é crítica para o negócio.
@@ -20,6 +26,13 @@ o relatório deve ser de fácil acesso, usando o Github Pages#
 
 Passo a passo para configurar o projeto:
 
+PRÉ REQUISITOS
+
+Antes de prosseguir, primeiro certifique-se de ter instalado:
+
+.Node
+.Git
+
 * Baixe o projeto no Github:
 * Acessar o diretório root do projeto (que tem a pasta Cypress), instalar as dependências e abrir o Cypress Runner:
  PASSOS PARA INSTALAÇÃO:
@@ -27,7 +40,14 @@ Passo a passo para configurar o projeto:
 # .npm install
 # ./node_modules/.bin/cypress open
 
-. Após isso, é só escolher a spec desejada e assistir a execução dos testes.
+OBS: 
+Para executar os testes em modo headless, rode o comando npm run cy:run
+Para gerar e agrupar os relatórios você deve rodar os comandos npm run report:merge e em seguida npm run report:mocha
+Para limpar os arquivos gerados nos relatórios você pode rodar também npm run report:clean
+
+*******************************************************************************
+
+Após isso, é só escolher a spec desejada e assistir a execução dos testes.
 
 ![image](https://user-images.githubusercontent.com/94000549/144837566-b83a05d2-0909-42c5-bcba-b44cb446f89a.png)
 
@@ -38,6 +58,9 @@ Passo a passo para configurar o projeto:
 
 
 ![Hnet com-image](https://user-images.githubusercontent.com/94000549/144837171-d2c560e5-d3fc-4363-a34d-e00703261c67.gif)
+
+
+Você também pode executar o projeto direto pelo GitHub Actions, basta acessar a aba Actions" desse repositório.
 
 
 link do relatório gerado:   https://gasparwelington.github.io/DesafioModulo3_Agilizei/
