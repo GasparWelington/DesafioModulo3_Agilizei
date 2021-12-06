@@ -20,13 +20,20 @@ o relatório deve ser de fácil acesso, usando o Github Pages#
 
 Passo a passo para configurar o projeto:
 
-Baixe o projeto no Github:
+* Baixe o projeto no Github:
+* Acessar o diretório root do projeto (que tem a pasta Cypress), instalar as dependências e abrir o Cypress Runner:
+ PASSOS PARA INSTALAÇÃO:
 
-Instale e abra o Cypress
+# .npm install
+# ./node_modules/.bin/cypress open
 
-Acessar o diretório root do projeto (que tem a pasta Cypress), instalar as dependências e abrir o Cypress Runner:
-.npm install
-./node_modules/.bin/cypress open
+. Após isso, é só escolher a spec desejada e assistir a execução dos testes.
+
+![image](https://user-images.githubusercontent.com/94000549/144837566-b83a05d2-0909-42c5-bcba-b44cb446f89a.png)
+
+
+
+
 
 
 
