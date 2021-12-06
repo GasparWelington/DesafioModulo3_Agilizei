@@ -40,3 +40,6 @@ Passo a passo para configurar o projeto:
 ![Hnet com-image](https://user-images.githubusercontent.com/94000549/144837171-d2c560e5-d3fc-4363-a34d-e00703261c67.gif)
 
 
+link do relatório gerado:   https://gasparwelington.github.io/DesafioModulo3_Agilizei/
+
+
